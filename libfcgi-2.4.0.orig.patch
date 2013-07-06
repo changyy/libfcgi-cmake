@@ -1,0 +1,11 @@
+diff -Naur libfcgi-2.4.0.orig/include/fcgio.h libfcgi-2.4.0.orig.modified/include/fcgio.h
+--- libfcgi-2.4.0.orig/include/fcgio.h	2002-02-25 21:16:11.000000000 +0800
++++ libfcgi-2.4.0.orig.modified/include/fcgio.h	2013-07-06 11:22:41.625068157 +0800
+@@ -31,6 +31,7 @@
+ #define FCGIO_H
+ 
+ #include <iostream>
++#include <stdio.h>
+ 
+ #include "fcgiapp.h"
+ 
